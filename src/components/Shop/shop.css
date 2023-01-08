@@ -10,12 +10,14 @@
 } */
 
 .order-container {
-  text-align: center;
-  /* background: #ff5200; */
+  /* text-align: center; */
   background: #1c2b35;
-  /* border-radius: 8px; */
   margin-top: -20px;
   color: white;
+}
+
+.order-container h3{
+  text-align: center;
 }
 
 .product-container {

@@ -41,8 +41,29 @@
   margin-left: -8px;
   margin-top: 10px;
   border-radius: 0 0px  5px 5px;
+  position: relative;
+}
+
+.select-cart {
+  position: absolute;
+  top: -13px;
+  background: #e0c090;
+  margin-left: 50px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  transition: .1s ease-in-out;
+  visibility: hidden;
+}
+
+.select-cart-visible {
+  visibility: visible;
 }
 
 .bottom-product button:hover {
+  background: #f09102;
+}
+.bottom-product button:hover .select-cart{
   background: #f09102;
 }
